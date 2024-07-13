@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: backend
-        image: docker pull gaellopes/backend:v1
+        image: docker.io/gaellopes/backend:v1
         ports:
         - containerPort: 8686

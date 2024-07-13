@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: banco-de-dados
-        image: docker pull gaellopes/banco-it-talent:v1.0
+        image:  docker.io/gaellopes/banco-it-talent:v1.0
         ports:
         - containerPort: 3306
         
