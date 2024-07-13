@@ -18,4 +18,4 @@ spec:
       - name: backend
         image: docker.io/gaellopes/backend:v1
         ports:
-        - containerPort: 8686
+        - containerPort: 8080
