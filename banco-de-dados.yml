@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: banco-de-dados-replicaset
+  labels:
+    app: banco-de-dados
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: banco-de-dados
+  template:
+    metadata:
+      labels:
+        app: banco-de-dados
+    spec:
+      containers:
+      - name: banco-de-dados
+        image: docker pull gaellopes/banco-it-talent:v1.0
+        ports:
+        - containerPort: 3306
+        
