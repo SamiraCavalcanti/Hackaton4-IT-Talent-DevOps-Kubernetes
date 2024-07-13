@@ -2,8 +2,6 @@ apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
   name: banco-de-dados-replicaset
-  labels:
-    app: banco-de-dados
 spec:
   replicas: 1
   selector:
@@ -15,8 +13,6 @@ spec:
         app: banco-de-dados
     spec:
       containers:
-      - name: banco-de-dados
-        image:  docker.io/gaellopes/banco-it-talent:latest
-        ports:
-        - containerPort: 3306
-        
+        - name: banco-de-dados
+          image: gaellopes/banco-it-talent:v1 
+            - containerPort: 3306  
