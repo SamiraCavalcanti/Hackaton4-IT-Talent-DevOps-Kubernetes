@@ -14,5 +14,9 @@ spec:
     spec:
       containers:
         - name: banco-de-dados
-          image: gaellopes/banco-it-talent:v1 
-            - containerPort: 3306  
+          image: gaellopes/banco-it-talent:v1  
+          ports:
+            - containerPort: 3306 
+          env:
+            - name: MYSQL_ROOT_PASSWORD
+              value: "root"  
