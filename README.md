@@ -16,7 +16,7 @@
    
 ![alt text](banco-backend-replicaset.png)
 
-  - Exclusão de um dos pods do ReplicaSet.Subida de um novo pod para normalização automática pelo Kubernetes.
+  - Exclusão de um dos pods do ReplicaSet e subida de um novo pod para normalização automática pelo Kubernetes.
 
   ![alt text](delete-e-subida-automatica.png)
   
