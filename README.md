@@ -29,9 +29,6 @@
 - <img src="https://img.icons8.com/fluent/48/000000/visual-studio-code-2019.png"/> **Visual Studio Code**: IDE para desenvolvimento.
 - <img src="https://img.icons8.com/color/48/000000/markdown.png"/> **Markdown**: Formato de arquivo para documentação.
 
-## Contribuições
-
-Contribuições são bem-vindas! Para mais detalhes, consulte o [Guia de Contribuição](CONTRIBUTING.md).
 
 
 
